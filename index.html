@@ -1,78 +1,105 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/sushi.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>Sushiman</title>
-  </head>
-  <body>
-    <header>
-      <nav class="header__nav">
-        
-        <div class="header__logo">
-          <h4>Sushiman</h4>
-          <div class="header__logo-overlay"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/sushi.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sushiman</title>
+</head>
+
+<body>
+  <header>
+    <nav class="header__nav">
+
+      <div class="header__logo">
+        <h4>Sushiman</h4>
+        <div class="header__logo-overlay"></div>
+      </div>
+
+      <ul class="header__menu">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#aboutus">About Us</a>
+        </li>
+        <li>
+          <img src="assets/search.svg" alt="search">
+        </li>
+      </ul>
+
+      <ul class="header__menu-mobile">
+        <li>
+          <img src="assets/menu.svg" alt="menu">
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image">
+      <!-- <img src="assets/sushi-1.png" alt="sushi"> -->
+      <h2>
+        日 <br />
+        本 <br />
+        食
+      </h2>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-content-info">
+        <h1>Feel the taste of Japanese food</h1>
+        <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
+
+        <div class="hero-content__buttons">
+          <button class="hero-content__order-button">Order Now</button>
+          <button class="hero-content__play-button">
+            <img src="assets/play-circle.svg" alt="play" />
+            How to orderd
+          </button>
         </div>
-
-        <ul class="header__menu">
-          <li>
-            <a href="#menu">Menu</a>
-          </li>
-          <li>
-            <a href="#food">Food</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#aboutus">About Us</a>
-          </li>
-          <li>
-            <img src="assets/search.svg" alt="search">
-          </li>
-        </ul>
-
-        <ul class="header__menu-mobile">
-          <li>
-            <img src="assets/menu.svg" alt="menu">
-          </li>
-        </ul>
-
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="hero-image">
-        <!-- <img src="assets/sushi-1.png" alt="sushi"> -->
-        <h2>
-          日 <br />
-          本 <br />
-          食 
-        </h2>
       </div>
-      
-      <div class="hero-content">
-        <div class="hero-content-info">
-          <h1>Feel the taste of Japanese food</h1>
-          <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
+    </div>
 
-          <div class="hero-content__buttons">
-            <button class="hero-content__order-button">Order Now</button>
-            <button class="hero-content__play-button">
-              <img src="assets/play-circle.svg" alt="play" />
-              How to orderd
-            </button>
-          </div>
-        </div>
-      </div>
+    <div class="hero-image__overlay">
 
-      <div class="hero-image__overlay">
-        
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <script type="module" src="js/script.js"></script>
-  </body>
+  <footer class="footer flex-between">
+    <h3 class="footer__logo">
+      <span>Sushi</span>man
+    </h3>
+    <ul class="footer__nav">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#food">Food</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about-us">About Us</a></li>
+    </ul>
+
+    <ul class="footer__social">
+      <li class="flex-center">
+        <img src="assets/facebook.svg" alt="facebook">
+      </li>
+      <li class="flex-center">
+        <img src="assets/instagram.svg" alt="instagram">
+      </li>
+      <li class="flex-center">
+        <img src="assets/twitter.svg" alt="twitter">
+      </li>
+    </ul>
+  </footer>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+
 </html>
