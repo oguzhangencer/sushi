@@ -100,8 +100,10 @@ a {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .sushi__hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* START: about us media queries */
@@ -142,6 +144,7 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+
   .about-us__image-sushi2 img,
   .about-us__image-sushi3 img {
     width: 100%;
@@ -185,6 +188,7 @@ a {
     padding-left: 0;
   }
 }
+
 /* END: header media querie */
 
 /* START: hero media queries */
@@ -233,6 +237,7 @@ a {
     padding: 32px;
   }
 }
+
 /* END: hero media queries */
 
 /* START: popular media queries */
@@ -246,6 +251,7 @@ a {
     min-width: 100%;
   }
 }
+
 /* END: popular media queries */
 
 /* START: subscribe media queries */
@@ -282,6 +288,7 @@ a {
     min-width: 100%;
   }
 }
+
 /* END: subscribe media queries */
 
 /* START: trending media queries */
@@ -318,4 +325,5 @@ a {
     padding: 32px;
   }
 }
+
 /* END: trending media queries */
