@@ -127,17 +127,13 @@
     object-fit: contain;
 }
 
-.trending__arrow img {
-    object-fit: contain;
-}
-
 .trending__arrow-left {
     left: -2.5px;
     top: 12%;
 }
 
 .trending__arrow-left img,
-.trending__arrow-top {
+.trending__arrow-top img {
     width: auto;
     height: 100%;
 }
